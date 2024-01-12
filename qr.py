@@ -63,7 +63,7 @@ st.title('QR Code Generator')
 st.markdown("---")
 
 # Input URL and QR code color
-url = st.text_input('Enter URL:', 'https://example.com')
+url = st.text_input('Enter URL:', 'tabanankab.bps.go.id')
 qr_color = st.color_picker('Choose QR Code Color:', '#0000FF')
 
 # Upload logo image
